@@ -1,5 +1,5 @@
 <template>
   <div>
-    <main-view></main-view>
+    <main-view>Main view slot</main-view>
   </div>
 </template>
