@@ -1,6 +1,6 @@
 <template>
     <div>
-     <h1>Opa</h1>
+     <h1>Opa,tudo bem</h1>
      <slot></slot>
     </div>
-  </template>
+</template>

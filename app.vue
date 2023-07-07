@@ -1,5 +1,7 @@
 <template>
   <div>
-    <main-view>Main view slot</main-view>
+    <NuxtLayout name="default">
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
