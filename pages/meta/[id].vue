@@ -1,6 +1,14 @@
+<script setup>
+definePageMeta({
+  layout: false
+})
+
+function setLayoutCustom() {
+  setPageLayout('custom');
+}
+
+</script>
 <template>
-    <div>
-     vue ok
- 
-    </div>
-  </template>
+  <button @click="setLayoutCustom">Click custom</button>
+  <p>Meta id: {{ $route.params.id }}</p>
+</template>
