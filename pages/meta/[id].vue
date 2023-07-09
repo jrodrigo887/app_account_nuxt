@@ -3,6 +3,9 @@ definePageMeta({
   layout: false
 })
 
+const test = useTestUse();
+
+
 function setLayoutCustom() {
   setPageLayout('custom');
 }
